@@ -514,6 +514,9 @@ body {
 .advantages {
 	padding-bottom: 50px;
 }
+.wrapper {
+	margin-top: -10px;
+}
 @media (min-width: 768px) {
 	.banner-text p:first-child {
 		text-align: left;
@@ -671,7 +674,7 @@ body {
 	    width: 0;
 	    height: 0;
 	    margin-left:-1000px; 
-	    margin-top:-110px; 
+	    margin-top:-100px; 
 	    border-left: 1000px solid transparent; 
 	    border-right: 1000px solid transparent; 
 	    border-top: 100px solid #ffffff; 
