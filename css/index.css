@@ -517,6 +517,13 @@ body {
 .wrapper {
 	margin-top: -10px;
 }
+
+@media (max-width: 450px) {
+	.steps-title {
+		width: 0px;
+	}
+}
+
 @media (min-width: 768px) {
 	.banner-text p:first-child {
 		text-align: left;
@@ -719,8 +726,7 @@ body {
 	}
 	.banner-text p:first-child + p {
 		font-size: 65px;
-		line-height: 1;
-		
+		line-height: 1;	
 	}
 	.banner-text p:first-child + p > span {
 		background: rgba(0,0,0,0.2);
@@ -744,8 +750,7 @@ body {
 	}
 	.top-burner {
 		font-size: 65px;
-		margin-top: 40px;
-		
+		margin-top: 40px;	
 	}
 	.top-burner:after {
 		top: 10px;
@@ -758,8 +763,6 @@ body {
 	.top-products-block {
 		margin-bottom: 70px;
 	}
-	
-	
 }
 /* special for header min-width 768px - max-width 780px*/
 @media (min-width: 768px)and (max-width: 778px) {
