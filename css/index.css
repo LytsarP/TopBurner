@@ -524,6 +524,12 @@ body {
 	}
 }
 
+@media (max-width: 768px) {
+	.steps-title {
+    		width: 690px;
+	}
+}
+
 @media (min-width: 768px) {
 	.banner-text p:first-child {
 		text-align: left;
