@@ -524,7 +524,7 @@ body {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.steps-title {
     		width: 690px;
 	}
