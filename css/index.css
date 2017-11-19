@@ -1,60 +1,7 @@
- http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike,  sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-.wrap:after,.wrap-790:after {
-	clear: both;
-	display: block;
-	content: "";
-}
-
 /*mobile - first*/
 body {
 	font-family: 'Roboto', sans-serif;
+	line-height: 1;
 }
 .top-header-block {
 	background-image: url(../image/banner.png);
@@ -219,7 +166,6 @@ body {
 	width: 29px;
 	height: 46px;
 	background-image: url(../image/small-fire.png);
-
 }
 .grey-title {
 	text-align: center;
@@ -228,7 +174,6 @@ body {
 	color: #b0b0b0;
 	margin-top: 15px;
 	margin-bottom: 20px;
-
 }
 .top-products-block {
 	margin-bottom: 35px;
@@ -249,7 +194,6 @@ body {
 	font-weight: bold;
 	font-size: 30px;
 	background: #ffffff;
-
 }
 .steps-one:before,.steps-third:before {
 	position: absolute;
@@ -273,7 +217,6 @@ body {
 	border-width: 30px 0 0 30px;
 	border-color: transparent transparent transparent #ffffff;
 }
-
 .steps-img img {
 	width: 100%;
 }
@@ -437,16 +380,16 @@ body {
 }
 .btn-buy-cart {
 	background: #80c818;
-    color: #ffffff;
-    text-align: center;
-    font-weight: 900;
-    width: 175px;
-    height: 50px;
-    line-height: 50px;
-    text-transform: uppercase;
-    display: block;
-    float: left;
-    margin-left: 15px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 900;
+	width: 175px;
+	height: 50px;
+	line-height: 50px;
+	text-transform: uppercase;
+	display: block;
+	float: left;
+	margin-left: 15px;
 }
 .btn-buy-cart:hover,.submit-btn:hover {
 	text-decoration: none;
@@ -517,19 +460,16 @@ body {
 .wrapper {
 	margin-top: -10px;
 }
-
 @media (max-width: 450px) {
 	.steps-title {
 		width: 0px;
 	}
 }
-
 @media (max-width: 767px) {
 	.steps-title {
     		width: 690px;
 	}
 }
-
 @media (min-width: 768px) {
 	.banner-text p:first-child {
 		text-align: left;
@@ -580,7 +520,6 @@ body {
 		margin: 45px 0;
 	}
 }
-
 @media (min-width: 992px) {
 	.delivery-block {
 		padding-top: 90px;
@@ -705,7 +644,6 @@ body {
 		position: relative;
 	}
 }
-
 @media (min-width: 1200px) {
 	.top-header-block {
 		padding-bottom: 160px;
