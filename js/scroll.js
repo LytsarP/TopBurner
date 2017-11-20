@@ -1,4 +1,4 @@
-$('a[href^="#"]').on('click', function(event) {
+$('a[src^="#"]').on('click', function(event) {
 
     var target = $(this.getAttribute('href'));
 
