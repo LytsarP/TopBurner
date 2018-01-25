@@ -277,9 +277,6 @@ body {
 	width: 290px;
 	margin: 0 auto;
 }
-.form-list ul {
-	list-style-type: none;
-}
 .form-list li {
 	background-image: url(../image/galka.png);
 	background-repeat: no-repeat;
