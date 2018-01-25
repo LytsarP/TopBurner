@@ -463,6 +463,9 @@ body {
 .wrapper {
 	margin-top: -10px;
 }
+.no-padding ul {
+	list-style-type: none;
+}
 @media (max-width: 450px) {
 	.steps-title {
 		width: 0px;
